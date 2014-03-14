@@ -3,7 +3,7 @@ Package.describe({
   summary: "Performance profiler and monitor"
 });
 
-Npm.depends({nodetime: "0.8.13"});
+Npm.depends({nodetime: "0.8.15"});
 
 Package.on_use(function (api) {
   if(api.export) {
